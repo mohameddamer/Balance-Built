@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Balance Built | Online Fitness Training</title>
+<style>
+:root {
+    --black: #0d0d0d;
+    --gold: #d4af37;
+    --white: #ffffff;
+    --gray: #cccccc;
+}
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, var(--black), #1a1a1a);
+}
+header img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: var(--gold);
+    margin: 10px 0;
+}
+header p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+.btn {
+    background-color: var(--gold);
+    color: var(--black);
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #bfa133;
+}
+section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+section h2 {
+    font-size: 2rem;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+input[type="submit"] {
+    background-color: var(--gold);
+    color: var(--black);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #bfa133;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+/* WhatsApp floating button */
+#whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Balance Built Logo">
+    <h1>Balance Built</h1>
+    <p>Premium online fitness training to build a balanced, strong, and sustainable body with personalized coaching and nutrition support.</p>
+    <a href="#contact" class="btn">Sign Up / Book Now</a>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Balance Built, we merge high-performance training with sustainable routines to help you achieve your best physique and performance without sacrificing your lifestyle. Our programs are fully personalized and guided to ensure consistent progress.</p>
+</section>
+
+<section id="programs">
+    <h2>Workout Program Highlights</h2>
+    <p✔️ Muscle Gain & Fat Loss Plans<br>
+       ✔️ Basketball & Athletic Conditioning<br>
+       ✔️ Mobility & Recovery Programs<br>
+       ✔️ Nutrition Coaching<br>
+       ✔️ Custom Schedules Adapted to Your Lifestyle</p>
+</section>
+
+<section id="booking">
+    <h2>Book Your Session</h2>
+    <p>We use Calendly to manage easy, seamless bookings. Click below to schedule your free consultation.</p>
+    <a href="#" class="btn">Book on Calendly</a>
+</section>
+
+<section id="payment">
+    <h2>Secure Your Spot</h2>
+    <p>Reserve your spot with a refundable deposit to start your Balance Built training journey immediately.</p>
+    <a href="#" class="btn">Pay Deposit via Stripe</a>
+</section>
+
+<section id="contact">
+    <h2>Sign Up / Contact Us</h2>
+    <p>Fill out this form to start your journey with Balance Built.</p>
+    <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <input type="text" name="goal" placeholder="Your Fitness Goal" required>
+        <textarea name="message" placeholder="Tell us about your training needs..." rows="4"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    © 2025 Balance Built. All rights reserved.
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="#" id="whatsapp-button" title="Chat on WhatsApp">
+    &#x1F4AC;
+</a>
+
+</body>
+</html>
